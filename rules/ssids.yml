@@ -1,0 +1,24 @@
+# SSID regex rules for drone detection
+# Each key is a label; each value is a list of regex strings (Python syntax).
+# Case-insensitive by default in dronescan.py
+DJI Mavic:
+  - "(?i)MAVIC_AIR"
+  - "(?i)Mavic"
+DJI Phantom:
+  - "(?i)PHANTOM\\d?"
+DJI Spark:
+  - "(?i)Spark"
+DJI Tello:
+  - "(?i)TELLO"
+FPV Racing Drone:
+  - "(?i)WIFI_FPV"
+Generic:
+  - "(?i)Drone\\d?"
+Hobbico C-me:
+  - "(?i)C-me"
+Hobbico Flitt:
+  - "(?i)Flitt_[a-zA-Z]{6,8}"
+Hubsan:
+  - "(?i)HUBSAN_[A-Z]{1,2}\\d+[A-Z]?"
+Parrot Bebop:
+  - "(?i)Bebop\\d?"

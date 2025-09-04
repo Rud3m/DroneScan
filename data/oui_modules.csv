@@ -1,0 +1,7 @@
+vendor,oui,source_url,notes
+# Common module vendors used inside drones (verify each OUI before using).
+Qualcomm,00:26:12,https://standards-oui.ieee.org,"Example placeholder; verify"
+u-blox,24:0A:C4,https://standards-oui.ieee.org,"Example placeholder; verify"
+Realtek,00:E0:4C,https://standards-oui.ieee.org,"Example placeholder; verify"
+Broadcom,00:10:18,https://standards-oui.ieee.org,"Example placeholder; verify"
+Murata,00:0E:08,https://standards-oui.ieee.org,"Example placeholder; verify"
