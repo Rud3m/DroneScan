@@ -90,6 +90,7 @@ include=/etc/kismet/oui_alerts.conf
 
 Restart Kismet. When a device with a matching OUI is observed, **DEVICEFOUND** alerts will trigger.
 
+![Kismet Alert](img/devcefound.png)
 ---
 
 ## `dronescan`: Live Wi-Fi Scanner
