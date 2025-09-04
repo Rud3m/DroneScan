@@ -141,12 +141,6 @@ sudo python tools/dronescan.py --iface wlan0mon --band bg --include-modules
 
 ```
 
-**JSONL (with `--jsonl`):**
-
-```json
-{"time":"2025-09-03T19:12:05Z","severity":"OUI_MATCH","ssid":"DJI-1234","macs":["60:60:1F:AA:BB:CC"],"oui_hits":[{"mac":"60:60:1F:AA:BB:CC","oui":"60:60:1F"}],"ssid_labels":null,"source":"dronescan"}
-```
-
 ### SSID rules
 
 Edit patterns in **`rules/ssids.yml`**. Example:
